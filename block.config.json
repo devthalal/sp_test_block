@@ -1,0 +1,13 @@
+{
+  "name": "sp_test_block",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/devthalal/sp_test_block",
+    "ssh": "git@github.com:devthalal/sp_test_block.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
